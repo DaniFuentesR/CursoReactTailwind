@@ -28,6 +28,7 @@ function CheckOutSideMenu () {
         context.setOrder([...context.order, orderToAdd]);
         context.setCartProducts([]); 
         context.setCounter(0); 
+        context.setSearchByTitle(null); 
     }
 
     return (

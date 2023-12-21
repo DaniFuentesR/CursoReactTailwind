@@ -12,45 +12,31 @@ import "./App.css";
 const AppRoutes = () => {
   const routes = useRoutes([
 
-    {
-      path: "/",
-      element: <Home />
-    },
+    {path: "/", element: <Home />},
+
+    {path: "/clothes", element: <Home />},
+
+    {path: "/electronics", element: <Home />},
+
+    {path: "/fournitures", element: <Home />},
+
+    {path: "/toys", element: <Home />},
+
+    {path: "/others", element: <Home />},
   
-    {
-      path:"/myaccount",
-      element: <MyAccount/>
-    },
+    {path:"/myaccount", element: <MyAccount/>},
 
-    {
-      path:"/myorder",
-      element: <MyOrder/>
-    },
+    {path:"/myorder", element: <MyOrder/>},
 
-    {
-      path:"/myorders",
-      element: <MyOrders/>
-    },
+    {path:"/myorders", element: <MyOrders/>},
 
-    {
-      path:"/myorders/last",
-      element: <MyOrder/>
-    },
+    {path:"/myorders/last", element: <MyOrder/>},
 
-    {
-      path:"/myorders/:id",
-      element: <MyOrder/>
-    },
+    {path:"/myorders/:id", element: <MyOrder/>},
     
-    {
-      path:"/notfound",
-      element: <NotFound/>
-    },
+    {path:"/notfound", element: <NotFound/>},
 
-    {
-      path:"/signin",
-      element: <SingIn/>
-    },
+    {path:"/signin", element: <SingIn/>},
   
   
   
